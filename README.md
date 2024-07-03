@@ -4,6 +4,8 @@ The [YDLIDAR GS2](https://www.ydlidar.com/products/view/11.html) is a small soli
 
 This repository include a small demo that uses a Adafruit Feather M4 CAN Express  (ATSAME51) with a small OLED to display distance readings.
 
+![hand moving over lidar sensor with depth shown on OLED](./docs/lidar_hand.gif)
+
 
 ## Compatibility
 
@@ -14,3 +16,9 @@ The library code for interfacing with the lidar [`ydlidar-gs2.cpp`](./src/ydlida
 Following diagram is for the code as per this repository.
 
 ![Breadboard diagram](./docs/breadboard_hookup.png)
+
+
+# Running
+Using the Arduino IDE app open the ino file found in the `src/ydlidar-gs2-demo` folder. Build and upload to device.
+
+All dependencies (OLED lib) needed by this demo have been included in this repo.
